@@ -1,0 +1,5 @@
+ILMerge.exe HackTrace.exe Zen.Barcode.Core.dll out.exe
+
+ILMerge.exe HackTrace.exe Zen.Barcode.Core.dll /target:winexe /targetplatform:"v4,c:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\" /out:merged.exe
+
+ILMerge.exe GestioneCE.exe Zen.Barcode.Core.dll /out:GestioneCE_Compact.exe
